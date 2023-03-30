@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+*{ font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+@media(max-width:600px){
+    .facet_sidebar{
+        display: none;
+    }
+}
+#hr{
+    position: relative; 
+    top: 20px; 
+    border: 5px; 
+    height: 12px; 
+    background: #00ab44; 
+    margin-bottom: 50px; 
+  }
+
+img{float: right;
+    height: 150px;
+    width: 150px;   
+}
+
+h1{
+    color: #353744;
+}
+
+h2.clasetitulos{
+    color: #00ab44;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.claseinfopersonal{
+    color: grey;
+    font-size: 100%;
+}
+
+#subtitulo{
+    color: #00ab44;
+    font-size: 130%;
+}
+
+.negritaformacion{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.italica{
+    font-style: italic;
+    color: grey;
+}
+.fechaformacion{
+    color: grey;
+    font-size: 90%;
+    margin-bottom: 3px;
+}
+
+ul{
+   list-style: square;
+}
+
+.idiomas{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.fechavoluntariados{
+    color: grey;
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
